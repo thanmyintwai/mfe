@@ -10,8 +10,7 @@ const devConfig = {
     historyApiFallback: {
       index: 'index.html',
     },
-  },  
-  
+  },    
   plugins: [
     new ModuleFederationPlugin({
       name: 'container',
