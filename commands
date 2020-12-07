@@ -1,0 +1,27 @@
+touch .gitignore
+
+git add .
+
+git status
+
+git commit -m "Initial Commit" 
+
+git remote add origin git@github.com:thanmyintwai/mfe.git
+
+git push origin master
+
+----------
+
+ssh-keygen -t rsa -b 4096 -C "thanmyintwai.my@googlemail.com"
+/home/john/.ssh/id_rsa
+Y0utN@yP@rB1
+eval "$(ssh-agent -s)"
+ssh-add /home/john/.ssh/id_rsa
+cat /home/john/.ssh/id_rsa.pub | xclip -sel clip
+
+--------------------------------------------------
+
+
+CD/CI - github action
+
+
